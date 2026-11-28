@@ -1,0 +1,422 @@
+===== run-01-python: python -m unittest -v test_chvc
+[     0.0s] catalogue: 179 CHVCs; G0 PASS; 0 rows off by > 0.15 deg: []
+[     0.0s] schema: 7 columns; map {'ra': 'ra', 'dec': 'dec', 'flux_vis': 'flux_vis_psf', 'flux_h': 'flux_h_templfit', 'fluxerr_h': 'fluxerr_h_templfit', 'point_flag': 'point_like_flag', 'spurious': 'spurious_flag'}; ok=True
+[     0.0s] control Leo P: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Leo T: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Leo A: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Sextans B: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Sextans A: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Antlia: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Antlia B: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Phoenix: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Tucana: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control WLM: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control IC 1613: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Cetus: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Pegasus dIrr: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control Aquarius: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control ESO 410-G005: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.0s] control ESO 294-G010: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.3s] control Eridanus II: COVERED n_all=5000 n_point=3080 cov=1.0,1.0 minp=2.35350838236442e-57
+[     0.3s] control IC 5152: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 015.6-78.4+100: COVERED n_all=5000 n_point=3000 cov=1.0,1.0 minp=0.25350792872113836
+[     0.6s] target CHVC 008.2-79.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 358.5-80.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.6-81.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 333.1-82.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 319.5-81.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 307.4-81.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 297.6-80.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 290.1-78.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 284.4-77.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 280.0-75.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 276.8-74.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 274.3-72.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 272.4-70.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 271.0-69.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 270.0-67.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 269.2-65.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.7-64.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.3-62.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.1-60.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.1-59.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.1-57.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.3-55.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.6-54.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.9-52.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 269.3-51.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 269.8-49.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 270.3-48.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 270.9-47.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 271.5-45.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 272.2-44.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 272.9-42.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 273.6-41.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 274.4-40.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 275.2-39.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 276.1-38.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 277.0-37.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 277.9-36.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 278.9-35.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 279.8-34.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 233.0-31.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 234.7-30.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 236.3-29.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 237.9-27.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 239.5-26.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 241.1-25.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 242.7-23.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 244.2-22.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 245.8-21.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 247.3-20.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 248.9-19.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 250.4-18.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 252.0-17.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 253.5-16.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 255.0-15.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 256.6-14.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 258.1-13.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 259.7-12.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 261.2-11.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 262.7-11.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 264.3-10.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 265.8-09.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 267.3-09.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 268.9-08.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 270.4-08.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 271.9-08.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 273.4-07.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 274.9-07.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 276.4-07.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 277.8-07.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 279.2-07.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 280.7-07.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 282.0-07.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 283.4-07.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 284.8-07.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 286.1-07.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 287.3-08.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 288.6-08.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 289.8-09.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 290.9-09.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 271.8+24.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 274.0+24.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 276.1+24.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 278.3+24.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 280.4+24.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 282.5+24.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 284.6+23.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 286.6+23.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 288.6+23.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 290.5+22.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 292.4+21.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 294.2+21.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 295.9+20.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 297.6+19.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 299.2+18.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 300.8+17.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 302.3+16.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 303.7+15.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 305.1+14.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 306.4+13.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 307.6+12.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 308.8+11.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 309.9+10.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 310.9+09.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 311.8+07.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 312.7+06.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 313.5+05.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 314.3+04.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 315.0+02.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 315.6+01.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 316.1+00.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 316.6-01.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 317.0-02.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 317.3-03.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 317.6-05.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 317.8-06.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 318.0-07.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 318.0-09.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 318.0-10.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 318.0-11.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 344.6+17.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 345.2+15.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 345.7+13.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.2+11.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.6+09.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.9+07.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.2+05.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.4+03.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.6+02.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.8+00.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.9-01.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.9-03.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.9-05.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.8-07.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.6-08.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.4-10.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 347.2-12.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.9-13.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.5-15.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.1-17.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 345.6-18.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 345.1-20.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 344.4-21.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 343.7-23.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 343.0-24.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 342.2-25.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 341.3-27.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 340.4-28.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 339.3-29.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 338.3-30.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 337.1-31.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 335.9-32.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 334.6-33.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 333.3-34.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 332.0-35.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 330.6-35.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 329.1-36.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 327.6-36.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 326.1-37.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 324.6-37.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 016.3-43.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 015.3-45.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 014.1-47.6+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 012.9-49.4+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 011.5-51.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 009.9-52.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 008.2-54.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 006.2-55.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 004.1-57.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 001.7-58.7+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 359.1-60.0+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 356.2-61.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 353.1-62.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 349.8-63.1+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 346.3-63.8+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 342.5-64.5+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 338.6-64.9+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 334.7-65.2+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] target CHVC 330.6-65.3+100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[     0.6s] covered targets 1, covered controls 1 ([('Eridanus II', 'DETECTED')]), target labels {'NO_COUNTERPART': 1}
+[     0.6s] OUTCOME NO_COUNTERPART
+
+===== run-02-python: python job_chvc.py --out-dir /out
+[     0.6s] VizieR https://vizier.cfa.harvard.edu: 179 rows
+[     0.6s] catalogue: 179 CHVCs; G0 PASS; 0 rows off by > 0.15 deg: []
+[     1.0s] schema: 480 columns; map {'ra': 'ra', 'dec': 'dec', 'flux_vis': 'flux_vis_psf', 'flux_h': 'flux_h_templfit', 'fluxerr_h': 'fluxerr_h_templfit', 'point_flag': 'point_like_flag', 'point_prob': 'point_like_prob', 'spurious': 'spurious_flag'}; ok=True
+[    10.7s] control Leo P: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[    15.8s] control Leo T: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[    21.5s] control Leo A: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[    25.7s] control Sextans B: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[    40.9s] control Sextans A: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[    61.0s] control Antlia: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[    68.6s] control Antlia B: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   668.9s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[   713.5s] control Phoenix: PARTIAL_COVERAGE n_all=163938 n_point=587 cov=1.0,0.7765151515151515 minp=None
+[   721.2s] control Tucana: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   728.4s] control WLM: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   733.2s] control IC 1613: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   738.0s] control Cetus: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   742.9s] control Pegasus dIrr: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   748.1s] control Aquarius: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   753.6s] control ESO 410-G005: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   766.6s] control ESO 294-G010: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   793.2s] control Eridanus II: COVERED n_all=159905 n_point=624 cov=1.0,0.821969696969697 minp=4.1388987943093316e-18
+[   803.0s] control IC 5152: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   808.1s] target CHVC 000.6+21.3-104: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   814.3s] target CHVC 001.2-15.5-186: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   821.2s] target CHVC 002.2-21.5-182: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   842.0s] target CHVC 002.5+23.1-138: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   848.9s] target CHVC 003.2-26.7-182: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   859.5s] target CHVC 003.6-65.6-119: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   867.0s] target CHVC 005.9-18.6-184: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   869.8s] target CHVC 007.0-74.1-104: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   875.0s] target CHVC 008.8-37.1-105: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   880.7s] target CHVC 009.8-19.1-189: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   899.7s] target CHVC 010.4-25.0-266: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   905.3s] target CHVC 011.2-20.5-238: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   910.3s] target CHVC 011.6-67.7-155: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   920.0s] target CHVC 011.9-64.3-099: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   922.7s] target CHVC 012.4+13.4-151: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   928.2s] target CHVC 013.5-63.1-188: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   935.8s] target CHVC 013.9-66.2-164: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   937.5s] target CHVC 014.6-05.4-172: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   947.6s] target CHVC 015.3-81.8-192: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   957.3s] target CHVC 016.7-69.3-119: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   963.3s] target CHVC 016.7-25.1-235: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   967.2s] target CHVC 018.4-26.5-307: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   973.0s] target CHVC 018.9-58.9-132: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   978.1s] target CHVC 020.7-61.4-092: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   985.8s] target CHVC 021.7-66.3-152: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   991.1s] target CHVC 022.2-52.6-223: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[   998.5s] target CHVC 022.6-71.5-105: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1014.1s] target CHVC 023.1-13.5-272: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1021.9s] target CHVC 024.0-69.9+095: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1027.3s] target CHVC 024.4-16.5-255: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1034.1s] target CHVC 024.5-01.9-286: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1039.3s] target CHVC 024.6+13.9+120: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1043.0s] target CHVC 025.2-29.3-219: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1051.8s] target CHVC 025.4-65.5-187: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1057.0s] target CHVC 026.6-60.1-224: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1071.0s] target CHVC 029.3-12.0-258: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1079.1s] target CHVC 031.0-05.8-335: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1083.8s] target CHVC 031.9-30.8-310: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1091.5s] target CHVC 032.1-60.8-182: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1101.3s] target CHVC 032.5-65.4-206: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1109.1s] target CHVC 033.6-23.2-288: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1113.7s] target CHVC 034.0-70.7-132: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1124.3s] target CHVC 035.5-15.2-283: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1134.2s] target CHVC 037.2-21.6-141: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1139.1s] target CHVC 039.3-53.9-217: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1144.0s] target CHVC 039.4-73.6-165: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1151.1s] target CHVC 043.4-38.3-179: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1156.6s] target CHVC 044.4-29.1-315: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1160.2s] target CHVC 047.5-51.7-134: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1166.1s] target CHVC 050.2-68.3-195: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1173.3s] target CHVC 052.0-36.1+108: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1179.2s] target CHVC 064.3-61.2-186: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1202.6s] target CHVC 071.2-80.0-226: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1217.5s] target CHVC 081.1-76.8-277: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1225.0s] target CHVC 082.6-74.3-258: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1230.2s] target CHVC 085.3-66.3-313: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1235.2s] target CHVC 088.8-62.9-288: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1240.0s] target CHVC 092.7-71.1-287: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1255.1s] target CHVC 094.1-66.4-310: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1256.8s] target CHVC 094.5-63.0-316: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1262.0s] target CHVC 103.5-69.8-310: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1270.1s] target CHVC 108.2-64.5-215: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1275.0s] target CHVC 118.0-73.0-304: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1282.3s] target CHVC 119.8-69.9-295: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1292.2s] target CHVC 125.1-71.3-281: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1296.9s] target CHVC 125.1-66.4-353: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1315.1s] target CHVC 141.1-82.2-228: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1320.0s] target CHVC 147.8-82.4-268: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1324.9s] target CHVC 150.5-88.7-240: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1330.2s] target CHVC 169.1-74.8-100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1337.2s] target CHVC 173.3-52.1-225: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1341.1s] target CHVC 175.4-52.9-216: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1347.3s] target CHVC 197.0-81.8-184: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1351.5s] target CHVC 207.1-73.5-190: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1357.2s] target CHVC 209.4-79.5-195: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1375.5s] target CHVC 217.7+00.1+278: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  1975.7s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[  1998.3s] target CHVC 223.9-69.7+093: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  2003.4s] target CHVC 224.0-83.4-197: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  2007.9s] target CHVC 224.6-14.7+117: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  2727.3s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[  3337.6s] TAP attempt 2 failed: TimeoutError('The read operation timed out')
+[  3383.1s] target CHVC 224.8-41.7+180: PARTIAL_COVERAGE n_all=151278 n_point=632 cov=0.8333333333333334,0.8333333333333334 minp=None
+[  3433.2s] target CHVC 225.1-42.5+175: PARTIAL_COVERAGE n_all=152762 n_point=626 cov=0.8333333333333334,0.8825757575757576 minp=None
+[  3448.2s] target CHVC 226.2-69.2-135: PARTIAL_COVERAGE n_all=70622 n_point=167 cov=0.16666666666666666,0.3371212121212121 minp=None
+[  4048.4s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[  4658.6s] TAP attempt 2 failed: TimeoutError('The read operation timed out')
+[  4694.3s] target CHVC 228.0-34.9+156: PARTIAL_COVERAGE n_all=3409 n_point=15 cov=0.0,0.022727272727272728 minp=None
+[  4700.0s] target CHVC 228.9-74.2-177: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  4706.4s] target CHVC 229.6-75.9-140: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  5306.6s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[  5916.9s] TAP attempt 2 failed: TimeoutError('The read operation timed out')
+[  5973.3s] target CHVC 232.0-73.1-094: PARTIAL_COVERAGE n_all=89158 n_point=309 cov=0.8333333333333334,0.48863636363636365 minp=None
+[  5979.0s] target CHVC 235.2-75.1-099: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  6014.0s] target CHVC 235.4-73.7-157: PARTIAL_COVERAGE n_all=51564 n_point=166 cov=0.0,0.2916666666666667 minp=None
+[  6057.9s] target CHVC 242.1-26.3+237: COVERED n_all=157395 n_point=1489 cov=1.0,0.9810606060606061 minp=0.3924930206758607
+[  6084.6s] target CHVC 243.1-29.0+130: COVERED n_all=154543 n_point=1286 cov=1.0,0.9696969696969697 minp=0.5289079964047495
+[  6089.6s] target CHVC 244.7-15.7+155: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  6099.3s] target CHVC 244.7-14.1+177: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  6112.1s] target CHVC 245.3-06.5+231: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  6117.5s] target CHVC 246.0-13.0+290: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  6717.7s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[  7328.0s] TAP attempt 2 failed: TimeoutError('The read operation timed out')
+[  7948.2s] TAP attempt 3 failed: TimeoutError('The read operation timed out')
+[  7978.3s] target CHVC 255.5-59.6+188: ERROR RuntimeError("TAP failed: TimeoutError('The read operation timed out')") n_all=None n_point=None cov=None,None minp=None
+[  8578.5s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[  8646.6s] target CHVC 256.1-29.0+247: COVERED n_all=160791 n_point=1343 cov=0.9166666666666666,0.9810606060606061 minp=0.6723972529892862
+[  8654.7s] target CHVC 256.7-69.5+136: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  8704.9s] target CHVC 257.1-26.2+123: COVERED n_all=123208 n_point=1541 cov=1.0,0.9772727272727273 minp=0.03141769410737196
+[  8711.4s] target CHVC 257.8-22.3+249: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[  8775.1s] target CHVC 258.2-23.9+359: COVERED n_all=162747 n_point=1863 cov=1.0,0.9886363636363636 minp=0.6881110674669159
+[  8806.4s] target CHVC 259.1-27.9+299: COVERED n_all=156074 n_point=1450 cov=1.0,0.9734848484848485 minp=0.7251492066107966
+[  9406.6s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[ 10016.9s] TAP attempt 2 failed: TimeoutError('The read operation timed out')
+[ 10637.2s] TAP attempt 3 failed: TimeoutError('The read operation timed out')
+[ 10667.2s] target CHVC 260.4-35.0+139: ERROR RuntimeError("TAP failed: TimeoutError('The read operation timed out')") n_all=None n_point=None cov=None,None minp=None
+[ 10674.2s] target CHVC 261.2-17.1+227: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 10678.0s] target CHVC 261.5-21.2+231: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 10684.0s] target CHVC 263.3-16.7+317: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11284.2s] TAP attempt 1 failed: TimeoutError('The read operation timed out')
+[ 11332.1s] target CHVC 264.7-55.7+184: PARTIAL_COVERAGE n_all=150539 n_point=626 cov=0.75,0.8598484848484849 minp=None
+[ 11366.7s] target CHVC 264.8-53.3+222: PARTIAL_COVERAGE n_all=156012 n_point=635 cov=0.8333333333333334,0.8901515151515151 minp=None
+[ 11374.9s] target CHVC 265.3+30.2+185: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11387.4s] target CHVC 266.0-18.7+336: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11393.0s] target CHVC 266.3-26.6+113: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11400.1s] target CHVC 267.1-23.0+346: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11407.9s] target CHVC 267.5-25.7+285: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11411.6s] target CHVC 267.6-15.6+226: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11504.7s] target CHVC 267.8-53.9+270: COVERED n_all=149189 n_point=639 cov=0.9166666666666666,0.8484848484848485 minp=0.2620580478090043
+[ 11513.5s] target CHVC 268.1-25.1+269: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11517.3s] target CHVC 269.4-74.5-112: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11524.0s] target CHVC 269.5+15.3+233: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11530.8s] target CHVC 270.2+14.7+252: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11534.6s] target CHVC 270.9+10.7+262: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11543.1s] target CHVC 271.8-73.7+120: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11548.7s] target CHVC 272.6+16.6+196: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11554.4s] target CHVC 273.4-12.0+228: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11615.7s] target CHVC 274.2-48.5+281: COVERED n_all=161324 n_point=820 cov=1.0,0.8977272727272727 minp=0.11164529313050664
+[ 11620.4s] target CHVC 275.2-10.1+258: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11685.5s] target CHVC 275.5-69.2+228: PARTIAL_COVERAGE n_all=149870 n_point=529 cov=0.75,0.8333333333333334 minp=None
+[ 11694.1s] target CHVC 276.3-09.1+279: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11697.8s] target CHVC 276.5-22.8+264: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11726.8s] target CHVC 277.8-60.5+207: PARTIAL_COVERAGE n_all=146059 n_point=609 cov=0.75,0.8560606060606061 minp=None
+[ 11732.3s] target CHVC 279.1-16.8+154: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11739.5s] target CHVC 282.2-14.9+217: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11745.3s] target CHVC 283.4-20.1+258: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11753.4s] target CHVC 283.5-16.3+104: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11755.8s] target CHVC 284.6-10.0+264: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11761.8s] target CHVC 284.9-16.1+205: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11769.5s] target CHVC 286.0-11.2+266: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11774.1s] target CHVC 286.7-15.0+218: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11779.9s] target CHVC 287.6-16.2+289: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11784.6s] target CHVC 289.3+32.9+251: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11793.3s] target CHVC 289.8-07.0+180: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11797.1s] target CHVC 290.9+26.0+197: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11812.8s] target CHVC 293.2-82.0-243: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11821.3s] target CHVC 294.0-11.6+271: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11831.7s] target CHVC 294.4-01.1+224: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11835.6s] target CHVC 296.3-08.7+311: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11844.5s] target CHVC 297.1+08.5+253: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11849.5s] target CHVC 297.4-04.3+312: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11857.3s] target CHVC 297.8-08.3+342: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11872.5s] target CHVC 299.4+25.3+183: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11879.7s] target CHVC 301.7-16.4+213: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11886.5s] target CHVC 304.6-37.3+111: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11895.8s] target CHVC 305.9-16.1+185: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11903.6s] target CHVC 309.3-44.0+091: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11909.3s] target CHVC 310.0-62.1+209: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11914.3s] target CHVC 310.4-10.6+232: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11920.1s] target CHVC 310.7-13.3+271: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11934.4s] target CHVC 312.0-45.2+231: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11937.3s] target CHVC 312.3-59.8+145: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11945.1s] target CHVC 317.0-16.2+190: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11951.6s] target CHVC 317.6-13.3+168: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11956.7s] target CHVC 318.3-14.1+148: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11960.5s] target CHVC 319.1-78.8+215: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11969.2s] target CHVC 319.8-08.6+154: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11974.3s] target CHVC 321.1+14.8+113: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11978.0s] target CHVC 323.2+35.7+142: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11987.7s] target CHVC 327.7+05.9+212: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11992.8s] target CHVC 330.1-74.0+221: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 11999.3s] target CHVC 330.4+40.9-099: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12005.1s] target CHVC 332.1+23.8+180: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12011.9s] target CHVC 334.5-20.2+095: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12015.6s] target CHVC 334.9+16.1+116: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12024.8s] target CHVC 341.3-72.8+243: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12029.2s] target CHVC 345.3-68.8+091: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12032.9s] target CHVC 346.0-74.5+168: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12038.0s] target CHVC 354.0-24.0+147: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12047.0s] target CHVC 357.5+05.8+270: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12052.9s] target CHVC 358.0-65.5-104: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12059.5s] target CHVC 359.0-43.7-092: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12065.3s] target CHVC 359.1-16.8-138: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12071.6s] target CHVC 359.8-75.6-100: NOT_IN_DR1 n_all=0 n_point=None cov=None,None minp=None
+[ 12071.6s] covered targets 8, covered controls 1 ([('Eridanus II', 'DETECTED')]), target labels {'NO_COUNTERPART': 8}
+[ 12071.6s] OUTCOME NO_COUNTERPART
